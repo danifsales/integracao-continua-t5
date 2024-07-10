@@ -5,7 +5,7 @@ on:
 
 jobs:
   primeiro-job:
-    runs-on: ubunto-latest
+    runs-on: ubuntu-latest
     steps:
       - run: echo "Primeiro passo"
       - name: Checkout
